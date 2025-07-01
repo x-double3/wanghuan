@@ -1,0 +1,119 @@
+########################## hero area ##########################
+hero:
+  title: "I'm Wanghuan"
+
+  # animated text loop
+  occupations:
+    - 'Architect'
+    - 'AI Engineer'
+    - 'ComfyUI Engineer'
+
+  # hero background image
+  bg_image: 'images/background.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/gus_small.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/profile.jpg'
+  title: '个人简介'
+  content: 嗨，感谢你查看我的网站，你可以点击下面的按钮下载我的简历文件!
+  # 第22行应修正为（示例）
+  button:
+    enable: true
+    label: '下载简历'
+    link: '/images/resume.pdf'
+    icon: 'fa-download'
+
+###########################3 Experience ##############################
+experience:
+  enable: true
+  title: '工作经历'
+  experience_list:
+    - name: 地产运营
+      company: 蓝光地产
+      duration: '2021-2022'
+      content: 统筹项目全周期计划管理，跟踪节点，分析数据，协调资源，控制成本，优化运营.
+
+    - name: 建筑设计
+      company: 四川省建筑设计研究院A2建筑工作室
+      duration: '2022-2025'
+      content: 参与成都世园会城市馆、文殊坊等建筑方案设计.
+
+
+    - name: AI数字产品设计
+      company: 四川省建筑设计研究院数字技术部门
+      duration: '2024-2025'
+      content: 参与搭建自主研发的“迁想AI”人工智能图像生成数字设计平台，组织训练建筑垂类LORA模型70余项目。撰写LORA相关论文，探索技术如何赋能产品设计流程.
+
+
+############################### Skill #################################
+skill:
+  enable: true
+  title: '主要技能'
+  showpercent: false
+  skill_list:
+    - name: 'Comfyui 工作流'
+      percentage: '85%'
+
+    - name: 'OFFICE软件'
+      percentage: '93%'
+
+    - name: 'Rhino等建模软件'
+      percentage: '90%'
+
+    - name: 'Photoshop等图像处理软件'
+      percentage: '90%'
+
+######################### funfacts #############################3
+funfacts:
+  enable: true
+  funfacts_list:
+    - university: '燕山大学'
+      major: '建筑学学士'
+      image: 'images/icons/school.png'
+      count: '2019'
+
+    - university: '西南交通大学'
+      major: '建筑学硕士'
+      image: 'images/icons/school.png'
+      count: '2022'
+
+############################# portfolio ################################
+portfolio:
+  enable: true
+  title: '作品展示'
+  portfolio_list:
+  
+    - name: 基于SD的"迁想AI"产品
+      image: 'images/portfolio/hugo.png'
+      url: '/images/qianxiang2.0.pdf'
+ 
+    - name: Comfyui工作流
+      image: 'images/portfolio/comfyui.png'
+      url: '/images/comfyui.pdf'
+
+    - name: 成都世园会城市馆项目
+      image: 'images/portfolio/shiyuanhui.png'
+      url: '/images/世园会.pdf'
+      
+    - name: 成都市文殊坊西片区项目
+      image: 'images/portfolio/xipianqu.png'
+      url: '/images/西片区.pdf'
+
+    - name: 未来科技城产业园区项目
+      image: 'images/portfolio/keji.png'
+      url: '/images/科技产业园.pdf'
+            
+    - name: 江油市李白纪念馆
+      image: 'images/portfolio/libai.png'
+      url: '/images/李白.pdf'
+   
+    - name: 龙泉山凤凰观景台
+      image: 'images/portfolio/fenghuang.png'
+      url: '/images/凤凰观景台.pdf'
+
+    - name: 某总部大楼超高层
+      image: 'images/portfolio/huaxi.png'
+      url: '/images/华西.pdf'
